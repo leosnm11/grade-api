@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: 'https://rocky-meadow-83440.herokuapp.com/',
+    origin: 'https://rocky-meadow-83440.herokuapp.com',
   })
 );
 
